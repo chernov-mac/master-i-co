@@ -61,7 +61,7 @@
         </div>
     </nav>
 
-    <div class="page-header header-slider" data-parallax="true">
+    <div class="page-header header-slider fade" data-parallax="true">
         <div class="header-slide header-filter" style="background-image: url(assets/img/header2.jpg)">
             <div class="container">
                 <div class="row">
@@ -82,7 +82,7 @@
                 </div>
             </div>
         </div>
-        <div class="header-slide header-filter" style="background-image: url(assets/img/header2.jpg)">
+        <div class="header-slide header-filter" style="background-image: url(assets/img/header3.jpg)">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 ml-md-auto">
@@ -467,7 +467,9 @@
                 cssEase: 'ease-in-out',
                 lazyLoading: 'progressive'
             });
-
+            $('.header-slider').on('init', function(e, slick){
+                $(this).addClass('show');
+            });
             $('.header-slider').slick({
                 initialSlide: 1,
                 infinite: true,
