@@ -29,6 +29,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/dist\/assets\/img\/header3.jpg": {
+		"ft": 16384,
+		"iS": 148053,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/img\/header3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/dist\/assets\/img\/person-looking-searching-clean.jpg": {
 		"ft": 16384,
 		"iS": 219734,
@@ -54,6 +64,36 @@
 		"iS": 6154296,
 		"oA": 0,
 		"oAP": "\/dist\/assets\/img\/pexels-photo-518244.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/assets\/img\/products\/Apple-iPhoneX-Silver-1-3x.jpg": {
+		"ft": 16384,
+		"iS": 86489,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/img\/products\/Apple-iPhoneX-Silver-1-3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/assets\/img\/products\/cctv.jpg": {
+		"ft": 16384,
+		"iS": 99210,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/img\/products\/cctv.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/assets\/img\/products\/imac-4k-config-hero-201706.jpeg": {
+		"ft": 16384,
+		"iS": 182633,
+		"oA": 0,
+		"oAP": "\/dist\/assets\/img\/products\/imac-4k-config-hero-201706.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -286,6 +326,13 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/dist\/shop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/shop.html",
+		"oF": 0
+		},
 	"\/dist\/theme\/default\/css\/theme.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -302,6 +349,16 @@
 		"oA": 0,
 		"oAP": "\/dist\/theme\/default\/css\/theme.min.css.map",
 		"oF": 0
+		},
+	"\/dist\/theme\/default\/js\/functions.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/dist\/theme\/default\/js\/functions-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/dist\/theme\/default\/js\/main.js": {
 		"ft": 64,
