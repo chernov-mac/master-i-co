@@ -120,6 +120,13 @@
     font-family: 'Noto Serif', serif;
     margin-right: .06em;
 }
+.dropdown {
+    &-item {
+        &.active {
+            background-color: rgba(0, 0, 0, 0.08);
+        }
+    }
+}
 
 .page-header {
     &.header-small {
