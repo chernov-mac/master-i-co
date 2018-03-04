@@ -9,215 +9,12 @@
 	],
 "creatorBuild": "26268",
 "files": {
-	"\/dist\/assets\/img\/header.jpg": {
-		"ft": 16384,
-		"iS": 459302,
+	"\/dist\/contacts.html": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/header2.jpg": {
-		"ft": 16384,
-		"iS": 472695,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/header2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/header3.jpg": {
-		"ft": 16384,
-		"iS": 148053,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/header3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/person-looking-searching-clean.jpg": {
-		"ft": 16384,
-		"iS": 219734,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/person-looking-searching-clean.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/pexels-photo-207492.jpeg": {
-		"ft": 16384,
-		"iS": 4061622,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/pexels-photo-207492.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/pexels-photo-518244.jpeg": {
-		"ft": 16384,
-		"iS": 6154296,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/pexels-photo-518244.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/products\/Apple-iPhoneX-Silver-1-3x.jpg": {
-		"ft": 16384,
-		"iS": 86489,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/products\/Apple-iPhoneX-Silver-1-3x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/products\/cctv.jpg": {
-		"ft": 16384,
-		"iS": 99210,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/products\/cctv.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/products\/imac-4k-config-hero-201706.jpeg": {
-		"ft": 16384,
-		"iS": 182633,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/products\/imac-4k-config-hero-201706.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/cctv.jpg": {
-		"ft": 16384,
-		"iS": 99210,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/cctv.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/dishwasher.jpg": {
-		"ft": 16384,
-		"iS": 242362,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/dishwasher.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/electrician.jpg": {
-		"ft": 16384,
-		"iS": 334561,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/electrician.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/fridge.jpg": {
-		"ft": 16384,
-		"iS": 392270,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/fridge.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/lockpicking.jpg": {
-		"ft": 16384,
-		"iS": 181884,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/lockpicking.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/microwave.jpg": {
-		"ft": 16384,
-		"iS": 141831,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/microwave.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/pc.jpg": {
-		"ft": 16384,
-		"iS": 335412,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/pc.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/plumber.jpg": {
-		"ft": 16384,
-		"iS": 212118,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/plumber.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/split-system.jpg": {
-		"ft": 16384,
-		"iS": 160271,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/split-system.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/tv.jpg": {
-		"ft": 16384,
-		"iS": 187152,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/tv.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/washer.jpg": {
-		"ft": 16384,
-		"iS": 228973,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/washer.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/dist\/assets\/img\/services\/woman-helmet-work-electrician.jpg": {
-		"ft": 16384,
-		"iS": 163645,
-		"oA": 0,
-		"oAP": "\/dist\/assets\/img\/services\/woman-helmet-work-electrician.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oAP": "\/dist\/contacts.html",
+		"oF": 0
 		},
 	"\/dist\/images\/logo-stroke.svg": {
 		"ft": 2097152,
@@ -389,6 +186,226 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/dist\/uploads\/img\/header-contacts.jpg": {
+		"ft": 16384,
+		"iS": 1761922,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/header-contacts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/header.jpg": {
+		"ft": 16384,
+		"iS": 459302,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/header2.jpg": {
+		"ft": 16384,
+		"iS": 472695,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/header2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/header3.jpg": {
+		"ft": 16384,
+		"iS": 148053,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/header3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/person-looking-searching-clean.jpg": {
+		"ft": 16384,
+		"iS": 219734,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/person-looking-searching-clean.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/pexels-photo-207492.jpeg": {
+		"ft": 16384,
+		"iS": 4061622,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/pexels-photo-207492.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/pexels-photo-518244.jpeg": {
+		"ft": 16384,
+		"iS": 6154296,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/pexels-photo-518244.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/products\/Apple-iPhoneX-Silver-1-3x.jpg": {
+		"ft": 16384,
+		"iS": 86489,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/products\/Apple-iPhoneX-Silver-1-3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/products\/cctv.jpg": {
+		"ft": 16384,
+		"iS": 99210,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/products\/cctv.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/products\/imac-4k-config-hero-201706.jpeg": {
+		"ft": 16384,
+		"iS": 182633,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/products\/imac-4k-config-hero-201706.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/cctv.jpg": {
+		"ft": 16384,
+		"iS": 99210,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/cctv.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/dishwasher.jpg": {
+		"ft": 16384,
+		"iS": 242362,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/dishwasher.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/electrician.jpg": {
+		"ft": 16384,
+		"iS": 334561,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/electrician.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/fridge.jpg": {
+		"ft": 16384,
+		"iS": 392270,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/fridge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/lockpicking.jpg": {
+		"ft": 16384,
+		"iS": 181884,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/lockpicking.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/microwave.jpg": {
+		"ft": 16384,
+		"iS": 141831,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/microwave.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/pc.jpg": {
+		"ft": 16384,
+		"iS": 335412,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/pc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/plumber.jpg": {
+		"ft": 16384,
+		"iS": 212118,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/plumber.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/split-system.jpg": {
+		"ft": 16384,
+		"iS": 160271,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/split-system.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/tv.jpg": {
+		"ft": 16384,
+		"iS": 187152,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/tv.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/washer.jpg": {
+		"ft": 16384,
+		"iS": 228973,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/washer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/services\/woman-helmet-work-electrician.jpg": {
+		"ft": 16384,
+		"iS": 163645,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/services\/woman-helmet-work-electrician.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/README.md": {
 		"cB": 0,

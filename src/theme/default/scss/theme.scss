@@ -204,6 +204,8 @@
 
 .list {
     text-align: left;
+    padding-left: 0;
+    width: 100%;
 
     li {
         width: 100%;
@@ -232,7 +234,7 @@
         &:after {
             content: '|';
             display: inline-block;
-            margin: 0 5px;
+            margin-left: 5px;
             font-size: 1.2em;
         }
     }
@@ -243,6 +245,18 @@
         font-weight: normal;
         text-transform: none;
         text-align: left;
+    }
+
+    &.card-body {
+        padding: {
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        li {
+            padding: 0 30px;
+        }
     }
 }
 .description-list {
@@ -256,14 +270,46 @@
         .li-col {
             display: table-cell;
             padding: 10px 0;
-            line-height: 1;
+            // line-height: 1;
             vertical-align: top;
             @include clearfix;
+
+            &.li-label {
+                padding-right: 5px;
+                white-space: nowrap;
+
+                &-strong {
+                    // font-weight: 500;
+                    font-weight: $font-weight-extra-bold;
+                    font-family: $font-family-serif;
+                    color: $black-color;
+                }
+            }
         }
     }
     li + li {
         .li-col {
             border-top: 1px solid rgba($black-color, 0.2);
+        }
+    }
+
+    &.card-body {
+        padding: {
+            right: 0;
+            left: 0;
+        }
+
+        li {
+            padding: 0;
+
+            .li-col {
+                &.li-label {
+                    padding-left: 30px;
+                }
+                &.li-description {
+                    padding-right: 30px;
+                }
+            }
         }
     }
 }
@@ -312,6 +358,14 @@ footer {
             }
         }
     };
+}
+
+.section {
+    padding: 30px 0;
+
+    &-map {
+        padding-bottom: 0;
+    }
 }
 
 .pagination {
@@ -379,5 +433,13 @@ footer {
             z-index: 2;
             margin-bottom: -26px;
         }
+    }
+}
+.card-map {
+    overflow: hidden;
+
+    &-bottom {
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
     }
 }
