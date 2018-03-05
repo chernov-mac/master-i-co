@@ -123,6 +123,13 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/dist\/profile.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/profile.html",
+		"oF": 0
+		},
 	"\/dist\/shop.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -187,41 +194,51 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/dist\/uploads\/img\/header-contacts.jpg": {
+	"\/dist\/uploads\/img\/headers\/office.jpg": {
 		"ft": 16384,
-		"iS": 1761922,
+		"iS": 434699,
 		"oA": 0,
-		"oAP": "\/dist\/uploads\/img\/header-contacts.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/uploads\/img\/header.jpg": {
-		"ft": 16384,
-		"iS": 459302,
-		"oA": 0,
-		"oAP": "\/dist\/uploads\/img\/header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/dist\/uploads\/img\/header2.jpg": {
-		"ft": 16384,
-		"iS": 472695,
-		"oA": 0,
-		"oAP": "\/dist\/uploads\/img\/header2.jpg",
+		"oAP": "\/dist\/uploads\/img\/headers\/office.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/dist\/uploads\/img\/header3.jpg": {
+	"\/dist\/uploads\/img\/headers\/phones.jpg": {
+		"ft": 16384,
+		"iS": 1761922,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/headers\/phones.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/headers\/reception.jpg": {
+		"ft": 16384,
+		"iS": 459302,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/headers\/reception.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/headers\/repairing-1.jpg": {
+		"ft": 16384,
+		"iS": 472695,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/headers\/repairing-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/headers\/repairing-2.jpg": {
 		"ft": 16384,
 		"iS": 148053,
 		"oA": 0,
-		"oAP": "\/dist\/uploads\/img\/header3.jpg",
+		"oAP": "\/dist\/uploads\/img\/headers\/repairing-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -228,10 +228,18 @@
     li {
         width: 100%;
         padding: 10px 0;
+        line-height: 1.5em;
         @include clearfix;
     }
     li + li {
         border-top: 1px solid rgba($black-color, 0.2);
+    }
+
+    &__label {
+        padding: 7px 0;
+        font-weight: $font-weight-extra-bold;
+        font-family: $font-family-serif;
+        color: $black-color;
     }
 
     .date {
@@ -258,11 +266,11 @@
     }
     a {
         padding: 0;
-        line-height: 1.5em;
         font-size: 14px;
         font-weight: normal;
         text-transform: none;
         text-align: left;
+        line-height: 1.5em;
     }
 
     &.card-body {
@@ -289,6 +297,7 @@
             display: table-cell;
             padding: 10px 0;
             // line-height: 1;
+            line-height: 1.5em;
             vertical-align: top;
             @include clearfix;
 
@@ -327,6 +336,14 @@
                 &.li-description {
                     padding-right: 30px;
                 }
+            }
+        }
+    }
+
+    &--editable {
+        li {
+            .li-label {
+                padding-top: 17px;
             }
         }
     }
@@ -376,6 +393,12 @@ footer {
             }
         }
     };
+}
+
+.modal-backdrop {
+    &.show {
+        opacity: 0.8;
+    }
 }
 
 
@@ -452,5 +475,57 @@ footer {
     &-bottom {
         border-bottom-left-radius: 6px;
         border-bottom-right-radius: 6px;
+    }
+}
+
+.editable {
+    position: relative;
+
+    &__represent,
+    &__field {
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 7px 0;
+
+        input,
+        .value,
+        .bmd-form-group {
+            flex: 1 1 auto;
+        }
+
+        .bmd-form-group {
+            padding-top: 0;
+            margin: -7px 0;
+        }
+
+        .value {
+            line-height: 22px;
+        }
+
+        a[data-editable] {
+            display: inline-block;
+            flex: 0 0 auto;
+            // width: 80px;
+            margin-left: 10px;
+            text-align: right;
+            // position: absolute;
+            // height: 21px;
+            // right: 0;
+            // top: 0;
+            // bottom: 0;
+            // margin: auto;
+        }
+    }
+
+    &__form {
+        .btn {
+            margin-top: .6rem;
+        }
+    }
+
+    &:not(.editing) &__field,
+    &:not(.editing) &__form,
+    &.editing &__represent {
+        display: none
     }
 }
