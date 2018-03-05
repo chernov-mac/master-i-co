@@ -7,8 +7,14 @@ function updateSliderInputs(values, inputs) {
 function setActiveSectionsNavItem() {
     $('#sectionsNav .nav-item').removeClass('active');
 
-    var current = window.location.pathname.split('/')[1].split('.')[0];
-    var $link = $('#sectionsNav a[href^="/'+ current +'"]');
+    var current = window.location.pathname.split('/')[1].split('.')[0],
+        $link;
+
+    if (!current) {
+        $link = $('#sectionsNav a[href="/"]');
+    } else {
+        $link = $('#sectionsNav a[href^="/'+ current +'"]');
+    }
 
     if ($link.length) {
         $link.closest('.nav-item').addClass('active');
