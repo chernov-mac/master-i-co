@@ -319,6 +319,13 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/dist\/news.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/news.html",
+		"oF": 0
+		},
 	"\/dist\/profile.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -390,6 +397,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/dist\/uploads\/img\/headers\/newspaper.jpg": {
+		"ft": 16384,
+		"iS": 399809,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/headers\/newspaper.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/dist\/uploads\/img\/headers\/office.jpg": {
 		"ft": 16384,
 		"iS": 434699,
@@ -435,6 +452,37 @@
 		"iS": 148053,
 		"oA": 0,
 		"oAP": "\/dist\/uploads\/img\/headers\/repairing-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/news\/bit-vs-prof-350x280.jpg": {
+		"ft": 16384,
+		"iS": 65328,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/news\/bit-vs-prof-350x280.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/news\/bit-vs-prof-350x280.png": {
+		"ft": 32768,
+		"iS": 70028,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/news\/bit-vs-prof-350x280.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/news\/copter.jpg": {
+		"ft": 16384,
+		"iS": 78490,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/news\/copter.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
