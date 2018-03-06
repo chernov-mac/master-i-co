@@ -16,6 +16,202 @@
 		"oAP": "\/dist\/contacts.html",
 		"oF": 0
 		},
+	"\/dist\/favicon\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 4779,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 10956,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 1284,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 1582,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/apple-touch-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 1644,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/apple-touch-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/apple-touch-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 837,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/apple-touch-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 920,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 1644,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/dist\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 567,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 751,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/favicon.ico",
+		"oF": 0
+		},
+	"\/dist\/favicon\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 1786,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/mstile-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 1673,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 1656,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 2965,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 1305,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/mstile-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/dist\/favicon\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/favicon\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/dist\/favicon\/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/favicon\/site.webmanifest",
+		"oF": 0
+		},
 	"\/dist\/images\/logo-stroke.svg": {
 		"ft": 2097152,
 		"miP": 0,
