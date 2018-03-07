@@ -347,6 +347,13 @@
 		"oAP": "\/dist\/shop.html",
 		"oF": 0
 		},
+	"\/dist\/static.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/static.html",
+		"oF": 0
+		},
 	"\/dist\/theme\/default\/css\/theme.min.css": {
 		"aP": 1,
 		"bl": 0,

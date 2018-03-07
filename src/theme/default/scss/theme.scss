@@ -238,8 +238,13 @@
             color: #555;
             margin-bottom: 30px;
         }
-        ul {
+        ul:not(.list) {
             padding-left: 22px;
+        }
+
+        .brand {
+            font-weight: 600;
+            text-transform: uppercase;
         }
     }
     &-post-info {
@@ -382,6 +387,12 @@
             .li-label {
                 padding-top: 17px;
             }
+        }
+    }
+
+    &--no-border {
+        li + li .li-col {
+            border: none;
         }
     }
 }
