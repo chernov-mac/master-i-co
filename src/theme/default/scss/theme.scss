@@ -35,6 +35,8 @@
             }
         }
     }
+
+    @include bmd-social-buttons;
 }
 
 .slick {
@@ -224,6 +226,34 @@
     &.filters {
         display: flex;
         flex-direction: column;
+    }
+
+    &-text {
+        padding-bottom: 0;
+
+        p,
+        ul {
+            font-size: 1.188rem;
+            line-height: 1.5em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        ul {
+            padding-left: 22px;
+        }
+    }
+    &-post-info {
+        .btn {
+            margin: {
+                top: 0;
+                bottom: 0;
+            }
+        }
+    }
+}
+.post {
+    &-tags {
+        padding-top: 8px;
     }
 }
 
@@ -481,6 +511,10 @@ footer {
         .card-title {
             font-size: 18px;
             line-height: 1.3em;
+
+            @include media-breakpoint-down(md) {
+                font-size: 16px;
+            };
         }
         .date {
             margin: -5px 0 5px;
@@ -589,4 +623,55 @@ footer {
     &.editing &__represent {
         display: none
     }
+}
+
+.media {
+    &-heading + small {
+        display: block;
+        margin: -5px 0 5px;
+    }
+    &-heading small {
+        display: block;
+        margin: 5px 0 -5px;
+
+        @include media-breakpoint-up(md) {
+            display: inline-block;
+            margin: 0;
+
+            &:before {
+                content: '· ';
+            }
+        };
+        @include media-breakpoint-down(sm) {
+            font-size: 11px;
+        };
+    }
+
+    .avatar {
+        margin: 0 auto;
+        width: 64px;
+        height: 64px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-right: 15px;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12), 0 3px 5px -1px rgba(0, 0, 0, .2);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    > .float-left {
+        padding: 10px;
+    }
+
+    @include media-breakpoint-down(xs) {
+        > .float-left {
+            padding: 10px 0;
+        }
+        .avatar {
+            width: 48px;
+            height: 48px;
+        }
+    };
 }

@@ -7,7 +7,7 @@
 		"uuidString": "8F55BC38-7518-4865-ABF6-1EC68BECC250"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/dist\/contacts.html": {
 		"cB": 0,
@@ -212,6 +212,13 @@
 		"oAP": "\/dist\/favicon\/site.webmanifest",
 		"oF": 0
 		},
+	"\/dist\/fullstory.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/fullstory.html",
+		"oF": 0
+		},
 	"\/dist\/images\/logo-stroke.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -396,6 +403,36 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/dist\/uploads\/img\/faces\/man-1.jpg": {
+		"ft": 16384,
+		"iS": 74370,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/faces\/man-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/faces\/woman-1.jpg": {
+		"ft": 16384,
+		"iS": 91113,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/faces\/woman-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/faces\/woman-2.jpg": {
+		"ft": 16384,
+		"iS": 55545,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/faces\/woman-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/dist\/uploads\/img\/headers\/newspaper.jpg": {
 		"ft": 16384,
@@ -2937,8 +2974,8 @@
 "projectAttributes": {
 	"creationDate": 540993644,
 	"displayValue": "master-i-co",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ive"
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-facepalm"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
