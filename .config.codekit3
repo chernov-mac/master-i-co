@@ -239,6 +239,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/dist\/images\/rating.png": {
+		"ft": 32768,
+		"iS": 2505,
+		"oA": 0,
+		"oAP": "\/dist\/images\/rating.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/dist\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -436,6 +447,16 @@
 		"iS": 55545,
 		"oA": 0,
 		"oAP": "\/dist\/uploads\/img\/faces\/woman-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/headers\/man-coffee-cup-pen.jpg": {
+		"ft": 16384,
+		"iS": 350585,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/headers\/man-coffee-cup-pen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -238,13 +238,27 @@
             color: #555;
             margin-bottom: 30px;
         }
-        ul:not(.list) {
-            padding-left: 22px;
-        }
 
         .brand {
             font-weight: 600;
             text-transform: uppercase;
+        }
+
+        &-inner {
+            ul:not(.list) {
+                padding-left: 22px;
+            }
+            img {
+                max-width: 100%;
+            }
+            > img {
+                margin-bottom: 30px;
+            }
+            p {
+                @include media-breakpoint-down(sm) {
+                    font-size: 16px;
+                };
+            }
         }
     }
     &-post-info {
@@ -259,6 +273,28 @@
 .post {
     &-tags {
         padding-top: 8px;
+    }
+    &-meta {
+
+        .description-list {
+            li {
+                .li-col {
+                    line-height: 1.2em;
+                    font-size: 16px;
+
+                    &.li-label {
+                        padding-right: 15px;
+                    }
+                }
+            }
+        }
+
+        &__views {
+            .li-description {
+                padding-top: 12px !important;
+                line-height: 1.5
+            }
+        }
     }
 }
 
@@ -352,6 +388,12 @@
                     font-weight: $font-weight-extra-bold;
                     font-family: $font-family-serif;
                     color: $black-color;
+                }
+                &-icon {
+                    i {
+                        font-size: 24px;
+                        color: #aaa;
+                    }
                 }
             }
         }
@@ -582,6 +624,50 @@ footer {
         justify-content: center;
         margin-bottom: 30px;
     }
+    &-sorting {
+        .nav-item:first-child {
+            padding: 10px 15px 10px 0;
+        }
+
+        .nav-item {
+            &.asc,
+            &.desc {
+                .nav-link {
+                    color: #fff;
+                    background-color: #9c27b0;
+                    box-shadow: 0 5px 20px 0px rgba(0,0,0,0.2), 0 13px 24px -11px rgba(156,39,176,0.6);
+                }
+            }
+
+            &.asc {
+                .nav-link {
+                    &:before {
+                        content: '\f160';
+                        font-family: 'FontAwesome';
+                        margin-right: 5px;
+                    }
+                }
+            }
+            &.desc {
+                .nav-link {
+                    &:before {
+                        content: '\f161';
+                        font-family: 'FontAwesome';
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.news-title {
+    font-size: 24px;
+
+    @include media-breakpoint-down(sm) {
+        margin-top: 0;
+        font-size: 20px;
+    };
 }
 
 .editable {
@@ -685,4 +771,72 @@ footer {
             height: 48px;
         }
     };
+}
+
+.rating {
+    font-size: 11px;
+
+    &, .unit-rating {
+        width: 150px;
+        height: 30px;
+    }
+
+    .unit-rating {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        background-position: 0 -30px;
+
+        li {
+            text-indent: -90000px;
+            padding: 0;
+            margin: 0;
+            float: left;
+
+            a {
+                display: block;
+                width: 30px;
+                height: 30px;
+                text-decoration: none;
+                border: 0 none !important;
+                text-indent: -9000px;
+                z-index: 17;
+                position: absolute;
+                padding: 0;
+
+                $unit-width: 30px;
+                @each $num in (1 2 3 4 5) {
+                    &.r#{$num}-unit {
+                        left: $unit-width * ($num - 1);
+
+                        &:hover {
+                            width: $unit-width * $num;
+                        }
+                    }
+                };
+
+                &:hover {
+                    background-position: 0 -60px;
+                    z-index: 2;
+                    left: 0;
+                }
+            }
+
+            &.current-rating {
+                background-position: 0 0;
+                position: absolute;
+                height: 30px;
+                display: block;
+                z-index: 1;
+            }
+        }
+
+        &,
+        li a:hover,
+        li.current-rating {
+            background-image: url('../../../images/rating.png');
+            background-size: 30px auto;
+        }
+    }
 }
