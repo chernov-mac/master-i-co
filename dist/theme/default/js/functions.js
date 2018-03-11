@@ -29,7 +29,7 @@ function initContactUsMap(mapId){
     // var myLatlng = new google.maps.LatLng(44.433530, 26.093928);
     var myLatlng = new google.maps.LatLng(46.3347946, 48.0639941);
     var mapOptions = {
-        zoom: 16,
+        zoom: 17,
         center: myLatlng,
         // styles: [
         //     {
