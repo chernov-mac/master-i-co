@@ -474,9 +474,16 @@
     }
 }
 
-.modal-backdrop {
-    &.show {
-        opacity: 0.8;
+
+.modal {
+    .list {
+        list-style: none;
+    }
+    
+    &-backdrop {
+        &.show {
+            opacity: 0.8;
+        }
     }
 }
 
