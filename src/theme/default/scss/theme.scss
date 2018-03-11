@@ -102,6 +102,9 @@
         .navbar:not(.navbar-transparent) &:before {
             background: $white;
         }
+        .navbar.bg-dark:not(.navbar-transparent) &:before {
+            background: #212121;
+        }
 
         .nav-open & {
             @include shadow-16dp();
@@ -188,36 +191,11 @@
         };
     }
 
-    @include media-breakpoint-down(sm) {
-        // .section {
-        //     padding: 40px 0;
-        // }
-        .info {
-            display: flex;
-            flex-flow: row wrap;
-            padding: 40px 0 20px;
-            max-width: none;
-
-            &-title {
-                margin: 0.5rem 0;
-            }
-
-            .icon {
-                display: flex;
-                align-items: center;
-                margin-right: 15px;
-
-                > i {
-                   font-size: 2rem;
-               }
-            }
-
-            p {
-                flex: 1 0 100%;
-                text-align: left;
-            }
-        }
-    };
+    // @include media-breakpoint-down(sm) {
+    //     .section {
+    //         padding: 40px 0;
+    //     }
+    // };
 }
 .section {
     padding: 0;
@@ -434,9 +412,6 @@
     }
 }
 
-footer {
-
-}
 .footer {
     display: block;
     padding: 0;
@@ -859,9 +834,66 @@ footer {
     .brand {
         color: inherit;
     }
+    @include media-breakpoint-down(sm) {
+        .info {
+            display: flex;
+            flex-flow: row wrap;
+            padding: 40px 0 20px;
+            max-width: none;
+
+            &-title {
+                margin: 0.5rem 0;
+            }
+
+            .icon {
+                display: flex;
+                align-items: center;
+                margin-right: 15px;
+
+                > i {
+                   font-size: 2rem;
+               }
+            }
+
+            p {
+                flex: 1 0 100%;
+                text-align: left;
+            }
+        }
+    };
 }
 .brand {
     font-weight: 600;
     text-transform: uppercase;
     font-family: 'Roboto';
+}
+.big-map {
+    height: 55vh;
+    min-height: 330px;
+    width: 100%;
+    display: block;
+    position: relative;
+
+    a[target="_blank"][title^="Click to see this area on Google Maps"],
+    .gm-style-cc {
+        display: none !important;
+    }
+    button[title="Toggle fullscreen view"] {
+        top: 78px !important;
+    }
+    .gm-bundled-control-on-bottom {
+        bottom: 170px !important;
+    }
+}
+.contact-us {
+    .info {
+        padding-bottom: 10px;
+        padding-top: 0;
+    }
+    .title {
+        @include media-breakpoint-down(sm) {
+            font-size: 1.5625rem;
+            line-height: 1.4em
+        };
+    }
 }
