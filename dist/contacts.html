@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="/theme/default/css/theme.min.css">
 
 </head>
-<body>
-    <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+<body class="contact-us">
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark" color-on-scroll="100" id="sectionsNav">
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="./index.html">Мастер<i class="amp">&amp;</i>Ко</a>
@@ -69,59 +69,94 @@
         </div>
     </nav>
 
-    <div class="page-header header-small header-filter" style="background-image: url('/uploads/img/headers/phones.jpg')">
-        <div class="container">
-            <h3 class="title text-center">Контакты</h3>
-        </div>
-    </div>
+    <div id="contactUsMap" class="big-map"></div>
+    <!--  Google Maps Plugin  -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Yno10-YTnLjjn_Vtk0V8cdcY5lC4plU"></script>
 
-    <div class="container">
-        <div class="row py-4">
-            <div class="col order-lg-2">
-                <div class="section">
-                    <!-- <h3 class="text-center title">Контакты</h3>
-                    <div class="text-center description mb-5">Позвоните нам, или приносите неисправную технику по адресу.</div> -->
-                    <div class="card">
-                        <ul class="card-body list description-list">
-                            <li>
-                                <div class="li-col li-label li-label-strong">Адрес</div>
-                                <div class="li-col li-description">улица Н.Островского, 148б, г. Астрахань</div>
-                            </li>
-                            <li>
-                                <div class="li-col li-label li-label-strong">Телефоны</div>
-                                <div class="li-col li-description">
-                                    <a href="tel:+78512729261" class="value">+7 (8512) 72-92-61</a>
+    <main class="main main-raised">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 mx-auto">
+                    <h2 class="title">Обратная связь</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="description">Если у Вас есть вопрос или предложение -- обязательно напишите нам! Мы свяжемся с Вами в ближайшее время.</p>
+                            <form role="form" id="contactForm" method="post">
+                                <div class="form-group">
+                                    <label for="contactForm_name" class="bmd-label-floating">Имя</label>
+                                    <input type="text" class="form-control" id="contactForm_name">
                                 </div>
-                            </li>
-                            <li>
-                                <div class="li-col li-label li-label-strong">E-mail</div>
-                                <div class="li-col li-description">
-                                    <a href="mailto:master_i_co@mail.ru" class="value">master_i_co@mail.ru</a>
+                                <div class="form-group">
+                                    <label class="bmd-label-floating" for="contactForm_email">Email</label>
+                                    <input type="email" class="form-control" id="contactForm_email">
+                                    <span class="bmd-help">Мы никогда не передаём Ваши контактные данные третьим лицам.</span>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="li-col li-label li-label-strong">Часы работы</div>
-                                <div class="li-col li-description">
-                                    <div>ПН-ПТ: 10:00 до 18:00</div>
-                                    <div>СБ-ВС: Выходной</div>
+                                <div class="form-group">
+                                    <label class="bmd-label-floating" for="contactForm_phone">Телефон</label>
+                                    <input type="text" class="form-control" id="contactForm_phone">
                                 </div>
-                            </li>
-                        </ul>
-                        <div class="card-map card-map-bottom" style="width: 100%">
-                            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A14b7a6508c686fe6bdce6f0ff2ad3dc635de7dd53774fc9cee8f7c2f234c33ba&amp;height=295&amp;lang=ru_RU&amp;scroll=true"></script>
+                                <div class="form-group label-floating">
+                                    <label class="form-control-label bmd-label-floating" for="contactForm_message">Ваше сообщение</label>
+                                    <textarea class="form-control" rows="6" id="contactForm_message"></textarea>
+                                </div>
+                                <div class="submit text-center">
+                                    <button type="submit" class="btn btn-primary btn-raised btn-round">Отправить</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">pin_drop</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Наш адрес</h4>
+                                    <p> Bld Mihail Kogalniceanu, nr. 8,
+                                        <br> 7652 Bucharest,
+                                        <br> Romania
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">phone</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Звоните нам</h4>
+                                    <p> Человек Ресепшн
+                                        <br> +7 (8512) 72-92-61
+                                        <br> ПН-ПТ: 10:00 до 18:00
+                                        <br> СБ-ВС: Выходной
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">email</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Пишите на почту</h4>
+                                    <p> info@master_i_co.ru
+                                        <br> master_i_co@mail.ru
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col col-sm-8 col-md-6 col-lg-5 col-xl-4 offset-sm-2 offset-md-3 offset-lg-0 order-lg-1">
-                <div class="section section-contacts">
-                    <h3 class="text-center title d-lg-none">Оставьте заявку</h3>
-                    <div class="text-center description mb-5 d-lg-none">Заполните форму обратной связи, и мы перезвоним в течение 15 минут.</div>
+        </div>
+    </main>
+
+
+    <div class="section section-contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-6 col-lg-5 ml-auto mr-auto">
+                    <h3 class="text-center title">Оставьте заявку</h3>
+                    <h5 class="text-center description">Заполните форму обратной связи, и мы перезвоним в течение 15 минут.</h5>
                     <div class="card">
-                        <div class="card-header card-header-rose text-center">Первая заявка &mdash; скидка <strong>15%</strong></div>
                         <div class="card-body">
-                            <h4 class="text-center title d-none d-lg-block">Оставьте заявку</h4>
-                            <div class="text-center description d-none d-lg-block">Заполните форму обратной связи, и мы перезвоним в течение 15 минут.</div>
                             <form class="contact-form">
                                 <div class="form-group">
                                     <label class="bmd-label-floating">Имя</label>
@@ -319,7 +354,7 @@
     <!-- Page scripts -->
     <script type="text/javascript">
         $(function(){
-
+            initContactUsMap('contactUsMap');
         });
     </script>
 

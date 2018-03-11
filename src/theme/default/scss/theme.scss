@@ -76,7 +76,8 @@
         // background-size: 50px;
         // font-size: 24px;
     }
-    &-transparent .nav-item.active {
+    &-transparent .nav-item.active,
+    &.bg-dark .nav-item.active {
         @include media-breakpoint-down(md) {
             color: $navbar-color;
         };
