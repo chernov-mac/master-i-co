@@ -587,8 +587,8 @@
             display: block;
         }
         &-cover {
-            margin: -10px -10px -25px;
-            padding: 10px 10px 25px;
+            margin: -30px -10px -25px;
+            padding: 30px 10px 25px;
             overflow: hidden;
 
             img {
@@ -599,6 +599,11 @@
                 left: 0;
                 height: 100%;
                 object-fit: cover;
+            }
+
+            .card-plain & {
+                margin: -10px -10px -25px;
+                padding: 10px 10px 25px;
             }
         }
 
