@@ -962,3 +962,21 @@ body {
         };
     }
 }
+
+.clouds {
+    &_xsmall {
+    	font-size: x-small;
+    }
+    &_small {
+    	font-size: small;
+    }
+    &_medium {
+    	font-size: medium;
+    }
+    &_large {
+    	font-size: large;
+    }
+    &_xlarge {
+    	font-size: x-large;
+    }
+}

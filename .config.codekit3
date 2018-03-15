@@ -530,6 +530,13 @@
 		"oAP": "\/dist\/static.html",
 		"oF": 0
 		},
+	"\/dist\/tags.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/tags.html",
+		"oF": 0
+		},
 	"\/dist\/theme\/default\/css\/theme.min.css": {
 		"aP": 1,
 		"bl": 0,
