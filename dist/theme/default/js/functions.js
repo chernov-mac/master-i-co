@@ -135,6 +135,19 @@ function initContactUsMap(mapId){
     marker.setMap(map);
 }
 
+function beautifyPagination(pagination) {
+    $(pagination).addClass('pagination');
+    $.each($(pagination).find('a, span'), function(key, item){
+        if ($(item).attr('href')) {
+            $(item).wrap('<span class="page-item"></span>').addClass('page-link');
+        } else if ($(item).hasClass('nav_ext')) {
+            $(item).wrap('<span class="page-item"><a href="javascript:void(0)" class="page-link"></a></span>');
+        } else {
+            $(item).wrap('<span class="active page-item"><a href="javascript:void(0)" class="page-link"></a></span>');
+        }
+    });
+}
+
 // Plugins
 
 $.fn.editable = function() {

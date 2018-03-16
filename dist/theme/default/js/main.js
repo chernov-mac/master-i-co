@@ -10,4 +10,8 @@ $(function(){
         }
     });
 
+    $.each($('.Nnavigation'), function(item, navi){
+        beautifyPagination(navi);
+    });
+
 });
