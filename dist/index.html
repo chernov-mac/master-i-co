@@ -404,7 +404,7 @@
     </footer>
 
 
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <!-- <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -428,6 +428,75 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
                     <button type="submit" class="btn btn-primary btn-raised ml-2">Войти</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-login" role="document">
+            <div class="modal-content">
+                <div class="card card-signup card-plain">
+                    <div class="modal-header">
+                        <div class="card-header card-header-primary text-center">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+                            <div class="nav-tabs-navigation">
+                                <div class="nav-tabs-wrapper">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="javascript:void(0)">
+                                                <i class="material-icons">fingerprint</i> Вход
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/signup.html">
+                                                <i class="material-icons">person_add</i> Регистрация
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="form">
+                        <div class="modal-body">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <i class="material-icons">mail</i>
+                                            </span>
+                                        </div>
+                                        <input type="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <i class="material-icons">lock_outline</i>
+                                            </span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Пароль" required>
+                                    </div>
+                                    <small class="form-text form-text-prepend text-muted"><a href="#">Забыли пароль?</a></small>
+                                </div>
+                                <div class="form-check mt-4 ml-4">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" name="login_not_save" type="checkbox" value="">
+                                        Не запоминать меня на этом компьютере
+                                        <span class="form-check-sign">
+                                            <span class="check"></span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <a href="#" class="btn btn-primary btn-link btn-wd btn-lg">Войти</a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
