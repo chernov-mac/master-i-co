@@ -944,6 +944,30 @@ body {
         }
     };
 }
+.signup-page {
+    .page-header {
+        display: block;
+    }
+    .form {
+        &-check {
+            margin-top: 55px;
+        }
+        &-text {
+            line-height: 1.6;
+        }
+    }
+    .card-body {
+        .form-group,
+        .form-check,
+        .alert {
+            @include media-breakpoint-down(sm) {
+                margin-left: -16px;
+                padding-right: 0;
+                width: auto;
+            };
+        }
+    }
+}
 .brand {
     font-weight: 600;
     text-transform: uppercase;

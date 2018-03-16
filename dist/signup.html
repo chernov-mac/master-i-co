@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Мастер&amp;Ко</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_local/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_local/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_local/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_local/site.webmanifest">
+    <link rel="mask-icon" href="/favicon_local/safari-pinned-tab.svg" color="#663ab7">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700&subset=cyrillic" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i">
+
+    <!-- Default Theme CSS -->
+    <link rel="stylesheet" href="/theme/default/css/theme.min.css">
+
+</head>
+<body class="signup-page">
+    <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="./index.html">Мастер<i class="amp">&amp;</i>Ко</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Новости</a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Магазин</a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="#" class="dropdown-item">Каталог товаров</a>
+                            <a href="#" class="dropdown-item">Корзина</a>
+                        </div>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Сервис</a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="#" class="dropdown-item">Сервисный центр</a>
+                            <a href="#" class="dropdown-item">Авторизации</a>
+                            <a href="#" class="dropdown-item">Прайс-лист</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#loginModal" class="nav-link" data-toggle="modal"><i class="material-icons">account_circle</i>Войти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="page-header header-slider fade">
+        <div class="header-slide header-filter" style="background-image: url(uploads/img/headers/repairing-1.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="title">Ремонт любых видов техники</h2>
+                        <h4>Мы ремонтируем бытовую технику всех известных производителей: LG, Samsung, Bosch, Siemens, Zanussi, Indesit, Ariston и другие.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-slide header-filter" style="background-image: url(uploads/img/headers/reception.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto text-md-center">
+                        <h2 class="title">Ремонт стиральных машин на дому в Астрахани</h2>
+                        <h4>Мы выполняем ремонт стиральных машин в Астрахани вот уже более 5 лет. Мы знаем в этом толк и выполняем свою работу профессионально и качественно.<br>Мастер приедет надом в течение одного часа.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-slide header-filter" style="background-image: url(uploads/img/headers/repairing-2.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 ml-md-auto">
+                        <h2 class="title">Ремонт сплит систем и кондиционеров</h2>
+                        <h4>Мы осуществляем профессиональный ремонт кондиционеров и сплит-систем в не зависимости от труднодоступности внешнего блока.<br>Низкие цены на ремонт сплит систем</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="page-header header-filter" style="background-image: url(uploads/img/headers/reception.jpg); background-size: cover; background-position: top center;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="card card-signup">
+                        <h2 class="card-title text-center">Регистрация</h2>
+                        <div class="card-body">
+                            <form class="form">
+                                <div class="row">
+                                    <div class="col-xl-10 mx-auto">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="material-icons">mail</i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="email" name="mail" class="form-control" placeholder="Email" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="material-icons">account_circle</i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="text" name="login" class="form-control" placeholder="Логин" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="material-icons">lock_outline</i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="password" name="password" class="form-control" placeholder="Пароль" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="material-icons">lock_outline</i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="password" name="password_confirm" class="form-control" placeholder="Повторите пароль" required>
+                                                    </div>
+                                                    <small class="form-text form-text-prepend text-muted">Подтвердите Ваш пароль еще раз, чтобы быть уверенным в правильности введенных Вами данных.</small>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="material-icons">perm_identity</i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="text" name="name" class="form-control" placeholder="Имя" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="material-icons">perm_identity</i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="text" name="surname" class="form-control" placeholder="Фамилия" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="material-icons">phone</i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="text" name="phone" class="form-control" placeholder="Телефон" required>
+                                                    </div>
+                                                </div>
+                                                <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input type="checkbox" name="privacy_policy" class="form-check-input" required>
+                                                        <span class="form-check-sign">
+                                                            <span class="check"></span>
+                                                        </span>
+                                                        Я согласен с
+                                                        <a href="/privacy-policy.html">политикой конфиденциальности</a>.
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="alert alert-default">
+                                                    <div class="alert-icon text-secondary">
+                                                        <i class="material-icons">info_outline</i>
+                                                    </div>
+                                                    <b>Обратите внимание:</b> Все поля должны быть заполнены латинскими буквами
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="text-center text-lg-left mt-lg-3">
+                                                    <button type="submit" class="btn btn-primary btn-round">Продолжить</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer ">
+            <div class="container">
+                <nav class="footer-nav pull-left">
+                    <ul>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Производители</a></li>
+                        <li><a href="#">Районы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="copyright pull-right">
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>, <strong><a href="/">Мастер&amp;Ко</a></strong>.
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-login" role="document">
+            <div class="modal-content">
+                <div class="card card-signup card-plain">
+                    <div class="modal-header">
+                        <div class="card-header card-header-primary text-center">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
+                            <div class="nav-tabs-navigation">
+                                <div class="nav-tabs-wrapper">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="javascript:void(0)">
+                                                <i class="material-icons">fingerprint</i> Вход
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="/signup.html">
+                                                <i class="material-icons">person_add</i> Регистрация
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="form">
+                        <div class="modal-body">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <i class="material-icons">mail</i>
+                                            </span>
+                                        </div>
+                                        <input type="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <i class="material-icons">lock_outline</i>
+                                            </span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Пароль" required>
+                                    </div>
+                                    <small class="form-text form-text-prepend text-muted"><a href="#">Забыли пароль?</a></small>
+                                </div>
+                                <div class="form-check mt-4 ml-4">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" name="login_not_save" type="checkbox" value="">
+                                        Не запоминать меня на этом компьютере
+                                        <span class="form-check-sign">
+                                            <span class="check"></span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <a href="#" class="btn btn-primary btn-link btn-wd btn-lg">Войти</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--   Core JS Files   -->
+    <script src="/js/core/jquery.min.js"></script>
+    <script src="/js/core/popper.min.js"></script>
+    <script src="/js/bootstrap-material-design.js"></script>
+
+    <!-- Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="/js/plugins/moment.min.js"></script>
+    <script src="/js/plugins/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="/js/plugins/nouislider.min.js"></script>
+
+    <!-- Slick -->
+    <script src="/js/plugins/slick.min.js"></script>
+
+    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+    <script src="/theme/default/js/material-kit.js?v=2.0.0"></script>
+
+    <!-- Custom theme js -->
+    <script src="/theme/default/js/functions.js"></script>
+    <script src="/theme/default/js/main.js"></script>
+
+    <!-- Page scripts -->
+    <script type="text/javascript">
+        $(function(){
+
+            $('#reviews.slick .reviews-inner').slick({
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                speed: 500,
+                fade: false,
+                arrows: false,
+                dots: true,
+                dotsClass: 'carousel-indicators slick-indicators',
+                appendDots: $('#reviews.slick'),
+                cssEase: 'ease-in-out',
+                lazyLoading: 'progressive'
+            });
+            $('.header-slider').on('init', function(e, slick){
+                $(this).addClass('show');
+            });
+            $('.header-slider').slick({
+                initialSlide: 1,
+                infinite: true,
+                autoplay: false,
+                autoplaySpeed: 5000,
+                speed: 800,
+                fade: false,
+                arrows: false,
+                dots: false,
+                cssEase: 'ease-in-out',
+                lazyLoading: 'progressive'
+            });
+
+        });
+    </script>
+
+</body>
+</html>
