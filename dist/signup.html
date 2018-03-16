@@ -25,7 +25,7 @@
 
 </head>
 <body class="signup-page">
-    <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+    <nav class="navbar navbar-transparent navbar-absolute navbar-expand-lg" id="sectionsNav">
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="./index.html">Мастер<i class="amp">&amp;</i>Ко</a>
@@ -68,39 +68,6 @@
             </div>
         </div>
     </nav>
-
-    <!-- <div class="page-header header-slider fade">
-        <div class="header-slide header-filter" style="background-image: url(uploads/img/headers/repairing-1.jpg)">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="title">Ремонт любых видов техники</h2>
-                        <h4>Мы ремонтируем бытовую технику всех известных производителей: LG, Samsung, Bosch, Siemens, Zanussi, Indesit, Ariston и другие.</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-slide header-filter" style="background-image: url(uploads/img/headers/reception.jpg)">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 mx-auto text-md-center">
-                        <h2 class="title">Ремонт стиральных машин на дому в Астрахани</h2>
-                        <h4>Мы выполняем ремонт стиральных машин в Астрахани вот уже более 5 лет. Мы знаем в этом толк и выполняем свою работу профессионально и качественно.<br>Мастер приедет надом в течение одного часа.</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-slide header-filter" style="background-image: url(uploads/img/headers/repairing-2.jpg)">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 ml-md-auto">
-                        <h2 class="title">Ремонт сплит систем и кондиционеров</h2>
-                        <h4>Мы осуществляем профессиональный ремонт кондиционеров и сплит-систем в не зависимости от труднодоступности внешнего блока.<br>Низкие цены на ремонт сплит систем</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <div class="page-header header-filter" style="background-image: url(uploads/img/headers/reception.jpg); background-size: cover; background-position: top center;">
         <div class="container">
@@ -248,7 +215,7 @@
     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
         <div class="modal-dialog modal-login" role="document">
             <div class="modal-content">
-                <div class="card card-signup card-plain">
+                <div class="card card-login card-plain">
                     <div class="modal-header">
                         <div class="card-header card-header-primary text-center">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="material-icons">clear</i></button>
@@ -341,34 +308,7 @@
     <script type="text/javascript">
         $(function(){
 
-            $('#reviews.slick .reviews-inner').slick({
-                infinite: true,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                speed: 500,
-                fade: false,
-                arrows: false,
-                dots: true,
-                dotsClass: 'carousel-indicators slick-indicators',
-                appendDots: $('#reviews.slick'),
-                cssEase: 'ease-in-out',
-                lazyLoading: 'progressive'
-            });
-            $('.header-slider').on('init', function(e, slick){
-                $(this).addClass('show');
-            });
-            $('.header-slider').slick({
-                initialSlide: 1,
-                infinite: true,
-                autoplay: false,
-                autoplaySpeed: 5000,
-                speed: 800,
-                fade: false,
-                arrows: false,
-                dots: false,
-                cssEase: 'ease-in-out',
-                lazyLoading: 'progressive'
-            });
+
 
         });
     </script>

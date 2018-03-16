@@ -661,6 +661,14 @@ body {
             height: 220px;
         }
     }
+
+    &-login {
+        margin: 0;
+
+        .modal-header {
+            padding-top: 0;
+        }
+    }
 }
 .card-map {
     overflow: hidden;
@@ -947,6 +955,10 @@ body {
 .signup-page {
     .page-header {
         display: block;
+
+        .container {
+            padding-top: 150px;
+        }
     }
     .form {
         &-check {
