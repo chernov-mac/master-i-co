@@ -984,6 +984,11 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     font-family: 'Roboto';
+
+    &-logo {
+        padding-left: 1.5em;
+        background: url('../../../images/logo.svg') left center no-repeat;
+    }
 }
 .big-map {
     height: 55vh;
@@ -1012,6 +1017,51 @@ body {
         @include media-breakpoint-down(sm) {
             font-size: 1.5625rem;
             line-height: 1.4em
+        };
+    }
+}
+.error-page {
+    .page-header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+        padding: 140px 0 20px;
+        color: $white;
+
+        .brand {
+            color: $white;
+            font-size: 40px;
+            margin-left: -1em;
+        }
+
+        .title {
+            margin-top: 100px;
+        }
+
+        .page-body {
+            flex: 1 1 auto;
+        }
+        .footer {
+            position: relative;
+            z-index: 2;
+
+            .copyright,
+            .copyright a {
+                color: $white;
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding: 60px 0 20px;
+
+            .brand {
+                font-size: 24px;
+            }
+
+            .title {
+                margin-top: 40px;
+            }
         };
     }
 }
