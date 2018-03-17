@@ -43,6 +43,9 @@ body {
         }
     }
 }
+form {
+    margin-bottom: 0;
+}
 
 .btn {
     &-outline {
@@ -733,7 +736,49 @@ body {
     &-prepend {
         margin-left: 55px;
     }
+    &-abs {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    .has-success & {
+        color: theme-color(success);
+    }
+    .has-error & {
+        color: theme-color(error);
+    }
+    .has-danger & {
+        color: theme-color(danger);
+    }
 }
+.form-control-feedback {
+    &-bottom {
+        top: auto;
+        bottom: -4px;
+    }
+}
+
+.form-group {
+    .only-success,
+    .only-danger {
+        display: none;
+    }
+
+    &.has-success {
+        .only-success {
+            display: initial;
+        }
+    }
+    &.has-danger {
+        .only-danger {
+            display: initial;
+        }
+    }
+}
+
+
 .editable {
     position: relative;
 

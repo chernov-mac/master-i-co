@@ -479,6 +479,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/dist\/js\/plugins\/jquery.mask.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/dist\/js\/plugins\/jquery.mask.min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/dist\/js\/plugins\/moment.min.js": {
 		"ft": 64,
 		"ma": 0,
