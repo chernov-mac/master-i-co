@@ -672,11 +672,6 @@ form {
             padding-top: 0;
         }
     }
-    &-signup {
-        .container {
-            padding-top: 0;
-        }
-    }
 }
 .card-map {
     overflow: hidden;
@@ -1008,6 +1003,11 @@ form {
 
         .container {
             padding-top: 150px;
+        }
+        .card {
+            .container {
+                padding-top: 0;
+            }
         }
     }
     .form {
