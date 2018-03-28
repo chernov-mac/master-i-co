@@ -519,6 +519,13 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/dist\/lostpassword.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/dist\/lostpassword.html",
+		"oF": 0
+		},
 	"\/dist\/news.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -618,6 +625,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/dist\/uploads\/img\/captcha.jpg": {
+		"ft": 16384,
+		"iS": 4863,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/captcha.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/dist\/uploads\/img\/faces\/man-1.jpg": {
 		"ft": 16384,
 		"iS": 74370,
@@ -653,6 +670,16 @@
 		"iS": 262545,
 		"oA": 0,
 		"oAP": "\/dist\/uploads\/img\/headers\/broken-chain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/dist\/uploads\/img\/headers\/lostpassword.jpg": {
+		"ft": 16384,
+		"iS": 451089,
+		"oA": 0,
+		"oAP": "\/dist\/uploads\/img\/headers\/lostpassword.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -1134,6 +1134,24 @@ form {
     }
 }
 
+.captcha {
+    &-inline {
+        display: flex;
+
+        .form-group {
+            margin-left: 10px;
+            padding-top: 24px;
+        }
+    }
+}
+.alert {
+    font-size: 14px;
+
+    b {
+        font-size: inherit;
+    }
+}
+
 // .navigation {
 //     .icon-meta_pages {
 //         display: none;
