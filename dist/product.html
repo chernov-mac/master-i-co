@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Мастер&amp;Ко</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_local/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_local/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_local/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_local/site.webmanifest">
+    <link rel="mask-icon" href="/favicon_local/safari-pinned-tab.svg" color="#663ab7">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700&subset=cyrillic" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i">
+
+    <!-- Default Theme CSS -->
+    <link rel="stylesheet" href="/theme/default/css/theme.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="./index.html">Мастер<i class="amp">&amp;</i>Ко</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/news/" class="nav-link">Новости</a>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Магазин</a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="/shop/" class="dropdown-item">Каталог товаров</a>
+                            <a href="/cart/" class="dropdown-item">Корзина</a>
+                        </div>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Сервис</a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="/2-servisnyy-centr.html" class="dropdown-item">Сервисный центр</a>
+                            <a href="/3-avtorizacii.html" class="dropdown-item">Авторизации</a>
+                            <a href="/4-prays-list.html" class="dropdown-item">Прайс-лист</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/contacts/" class="nav-link">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a href="#loginModal" class="nav-link" data-toggle="modal"><i class="material-icons">account_circle</i>Войти</a> -->
+                        <a href="/profile/" class="nav-link"><i class="material-icons">account_circle</i> Профиль</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header header-medium header-filter" data-parallax="true" style="background-image: url('/uploads/img/headers/man-coffee-cup-pen.jpg')">
+        <div class="container">
+            <a href="cart.html" class="btn btn-white float-right product-cart-btn">
+                <i class="material-icons">shopping_cart</i> 0 Предметов
+            </a>
+        </div>
+    </div>
+
+    <div class="section section-gray">
+        <div class="container">
+            <div class="main main-raised main-product product">
+                <div class="product-label product-label-rose text-center">Распродажа</div>
+                <div class="row">
+                    <div class="col-12 col-lg-5 col-xl-4">
+                        <div class="product-image">
+                            <img src="/uploads/img/products/iPhoneX-1.jpg">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7 col-xl-8">
+                        <h2 class="title product-title">Product Name</h2>
+                        <div class="product-buy-block">
+                            <div class="product-price mt-3 mr-2">
+                                <div class="price price--old" title="Старая цена"><span class="value">91000.00 &#8381;</span></div>
+                                <div class="price price--new" title="Новая цена"><span class="value">79000.00 &#8381;</span></div>
+                                <div class="price"><span class="value">79000.00 &#8381;</span></div>
+                            </div>
+                            <button class="btn btn-lg btn-primary mt-3"><i class="material-icons">shopping_cart</i> В корзину</button>
+                        </div>
+                        <ul class="list description-list mt-4">
+                            <li>
+                                <div class="li-col li-label">Артикул</div>
+                                <div class="li-col li-description"><strong class="value">32345299475</strong></div>
+                            </li>
+                            <li>
+                                <div class="li-col li-label">Наличие</div>
+                                <div class="li-col li-description">
+                                    <span class="text-success"><strong class="value">Есть</strong></span>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-pills nav-pills-rose p-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#productDescr" data-toggle="tab">Описание</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#productSpecs" data-toggle="tab">Характеристики</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#productVideoReview" data-toggle="tab">Видеообзор</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content tab-space">
+                            <div class="tab-pane active" id="productDescr">
+                                <div class="product-descr">
+                                    <section class="overview show-text">
+                                        <h2>Обзор Apple iPhone X 64GB Space Gray</h2>
+                                        <div class="post">
+                                            <p>Производительный, инновационный, стильный Айфон Х 64 Гб серый – это грамотное сочетание широкого функционала, невероятной производительности и тандема камер. В качестве аппаратной платформы используется iOS 11й версии, которая открывает доступ к приложениям и сообщениям еще быстрее, чем раньше. Главной ее особенностью стала возможность отправления анимированных эмоджи.</p>
+                                            <p>Дисплей Retina получил поддержку технологии True Tone. Она автоматически настраивает баланс белого, в соответствии с окружающим освещением. Высокое разрешение и широкий цветовой охват обеспечивают яркую и насыщенную картинку на большом экране. Поддерживается функция 3D Touch – распознавание силы нажатия. Уровень максимальной яркости экрана – 625 нит, что позволяет работать даже при ярком солнечном свете.Учитывая инновационные улучшения и мощные технические характеристики можно смело утверждать, что на Айфон Х серый 64 Гб цена установлена справедливо.</p>
+                                            <h3>Дизайн</h3>
+                                            <p>Первое на, что обращаешь внимание – это дизайн устройства. Его безграничный дисплей, тонкие рамки – 7.7 мм, стильная окантовка под цвет гаджета. Слой краски нанесен в шесть слоев, что позволило добиться глубокого и насыщенного оттенка. Стекло менее сколько, поэтому меньше рисков, что аппарат выскользнет из рук. Модельный ряд представлен темно-серой и серебристой расцветками.</p>
+                                            <p style="display: none;">Влагоустойчивый корпус защищен по с</p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="productSpecs">
+                                <div class="product-specs">
+                                    <table class="chars-t">
+                                        <tbody>
+                                        <tr>
+                                            <td class="chars-t-cell-empty">&nbsp;</td>
+                                            <td class="chars-t-cell-empty">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title chars-group-title-first" colspan="2">Дисплей</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Диагональ экрана</span> <span class="glossary-icon" data-detail-data="detail_23777" data-detail-title="Диагональ экрана" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/23777=114812/">5.8</a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Разрешение дисплея</span> <span class="glossary-icon" data-detail-data="detail_23778" data-detail-title="Разрешение дисплея" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/23778=102630/">2436х1125</a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Тип матрицы</span> <span class="glossary-icon" data-detail-data="detail_31565" data-detail-title="Тип матрицы" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">OLED (Super Retina HD)</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Количество точек касания</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">10</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Материал экрана</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Стекло</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">СИМ-карты</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Количество СИМ-карт</span> <span class="glossary-icon" data-detail-data="detail_23017" data-detail-title="Количество СИМ-карт" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">1</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Размеры СИМ-карты</span> <span class="glossary-icon" data-detail-data="detail_26360" data-detail-title="Размеры СИМ-карты" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="glossary-term">Nano-SIM</span> <span class="glossary-icon" data-detail-data="detail_26360detail_value_23493" data-detail-title="Размеры СИМ-карты" name="toggle_glossary_button_detail_value"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Поддержка 3G</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Функции памяти</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Оперативная память</span> <span class="glossary-icon" data-detail-data="detail_38435" data-detail-title="Оперативная память" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/38435=103765/">3 ГБ</a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Встроенная память</span> <span class="glossary-icon" data-detail-data="detail_41404" data-detail-title="Встроенная память" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/41404=64-gb/">256 ГБ</a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Максимальный объем поддерживаемой карты памяти</span> <span class="glossary-icon" data-detail-data="detail_23388" data-detail-title="Максимальный объем поддерживаемой карты памяти" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Нет</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Количество контактов в телефонной книге</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">50000</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Количество номеров на 1 контакт</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Ограничено памятью самого устройства</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Количество символов в названии контакта</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Ограничено памятью самого устройства</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Комбинированный слот</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Нет</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Операционная система</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Операционная система</span> <span class="glossary-icon" data-detail-data="detail_20856" data-detail-title="Операционная система" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/op_system=246/">iOS</a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Фронтальная камера</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Количество мегапикселей фронтальной камеры</span> <span class="glossary-icon" data-detail-data="detail_49180" data-detail-title="Фронтальная камера" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/49180=103110/">7 Мп</a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Вспышка фронтальной камеры</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Программная</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Автофокус фронтальной камеры</span> <span class="glossary-icon" data-detail-data="detail_117651" data-detail-title="Автофокус" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Стабилизация фронтальной камеры</span> <span class="glossary-icon" data-detail-data="detail_117658" data-detail-title="Стабилизация" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Запись видео фронтальной камеры</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Full HD / 1920х1080 / стереозвук</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Дополнительно</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">&nbsp;Режим «Портрет»<br>&nbsp;Портретное освещение<br>&nbsp;Animoji<br>&nbsp;Вспышка Retina Flash<br>&nbsp;Диафрагма ƒ/2.2<br>&nbsp;Расширенный цветовой диапазон для фотографий и Live Photos<br>&nbsp;Автоматическое включение HDR<br>&nbsp;Сенсор BSI<br>&nbsp;Распознавание лиц и фигур<br>&nbsp;Автоматическая стабилизация изображения<br>&nbsp;Серийная съëмка<br>&nbsp;Контроль экспозиции<br>&nbsp;Режим таймера<br></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Процессор</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Название</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Apple A11 Bionic</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Количество ядер</span> <span class="glossary-icon" data-detail-data="detail_24983" data-detail-title="Количество ядер" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">4+2</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Основная камера</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Вспышка основной камеры</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Количество мегапикселей основной камеры</span> <span class="glossary-icon" data-detail-data="detail_20850" data-detail-title="Основная камера" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/20850=more_8_megapix/">12 Мп + 12 Мп</a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Стабилизация основной камеры</span> <span class="glossary-icon" data-detail-data="detail_117623" data-detail-title="Стабилизация" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Запись видео основной камеры</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">4K / 3840x2160 / стереозвук</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Дополнительно</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">&nbsp;Двойная камера 12 Мп с широкоугольным и телеобъективом<br>&nbsp;Широкоугольный объектив: диафрагма ƒ/1.8<br>&nbsp;Телеобъектив: диафрагма ƒ/2.4<br>&nbsp;Оптический зум; 10-кратный цифровой зум<br>&nbsp;Режим «Портрет»<br>&nbsp;Портретное освещение<br>&nbsp;Двойная оптическая стабилизация изображения<br>&nbsp;Шестилинзовый объектив<br>&nbsp;Вспышка True Tone Quad-LED с функцией Slow Sync<br>&nbsp;Панорамная съёмка (с разрешением до 63 Мп)<br>&nbsp;Защита объектива сапфировым стеклом<br>&nbsp;Сенсор BSI<br>&nbsp;Гибридный ИК-фильтр<br>&nbsp;Автофокус с технологией Focus Pixels<br>&nbsp;Фокусировка касанием и технология Focus Pixels<br>&nbsp;Live Photos со стабилизацией изображения<br>&nbsp;Расширенный цветовой диапазон для фотографий и Live Photos<br>&nbsp;Усовершенствованный алгоритм местной тональной компрессии<br>&nbsp;Распознавание лиц и фигур<br>&nbsp;Контроль экспозиции<br>&nbsp;Шумоподавление<br>&nbsp;Автоматическое включение HDR при фотосъёмке<br>&nbsp;Автоматическая стабилизация изображения<br>&nbsp;Серийная съëмка<br>&nbsp;Режим таймера<br>&nbsp;Привязка фотографий к месту съёмки<br>&nbsp;Форматы изображений: HEIF и JPEG&nbsp;</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Автофокус основной камеры</span> <span class="glossary-icon" data-detail-data="detail_117616" data-detail-title="Автофокус" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Питание</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Возможность беспроводной зарядки</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Быстрая зарядка</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Съемная АКБ</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Нет</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Стандарт связи/интернет</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Стандарт связи</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">3G (WCDMA/UMTS)</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">2G (EDGE)</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">4G (LTE)</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Материалы</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Материал корпуса</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Металл + стекло</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Разъемы</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Разъем зарядного устройства</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Lightning</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Разъем для подключения к ПК</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Lightning</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Разъем для наушников</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Lightning</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Навигация</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">GPS</span> <span class="glossary-icon" data-detail-data="detail_22597" data-detail-title="GPS-навигация" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">A-GPS</span> <span class="glossary-icon" data-detail-data="detail_117714" data-detail-title="A-GPS" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Beidou</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Нет</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">ГЛОНАСС</span> <span class="glossary-icon" data-detail-data="detail_117721" data-detail-title="ГЛОНАСС" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Есть</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Размеры</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Вес, г</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">&nbsp;174&nbsp;</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Ширина</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">&nbsp;70.9 мм&nbsp;</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Высота</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">&nbsp;143.6 мм&nbsp;</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Глубина</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">&nbsp;7.7 мм&nbsp;</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">FM-радио</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Наличие</span> <span class="glossary-icon" data-detail-data="detail_20851" data-detail-title="Встроенное радио" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Нет</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Беспроводные технологии</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Беспроводные технологии</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Wi-Fi</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">NFC</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Bluetooth 5.0</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Дополнительно</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Сканер отпечатков пальцев (Fingerprint)</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Нет</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Датчики</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="glossary-term">Акселерометр</span> <span class="glossary-icon" data-detail-data="detail_value_789567" data-detail-title="Акселерометр" name="toggle_glossary_button_detail_value"><a class="info" href="" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                                <div class="chars-value"><span class="glossary-term">Гироскоп</span> <span class="glossary-icon" data-detail-data="detail_value_789574" data-detail-title="Гироскоп" name="toggle_glossary_button_detail_value"><a class="info" href="" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Датчик освещения</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Датчик приближения</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Компас</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Барометр</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Степень пыле-/влагозащиты</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="glossary-term">IP67</span> <span class="glossary-icon" data-detail-data="detail_value_790304" data-detail-title="IP67" name="toggle_glossary_button_detail_value"><a class="info" href="" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title" colspan="2">Общие характеристики</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title"><span class="glossary-term">Цвет</span> <span class="glossary-icon" data-detail-data="detail_21716" data-detail-title="Цвет" name="toggle_glossary_button_detail"><a class="info" href="https://rozetka.com.ua/mobile-phones/c80003/glossary/" title="Словарь терминов"><img src="https://i.rozetka.ua/design/_.gif" width="14" height="15" alt="Подробнее" class="sprite info-icon fr-fic fr-dii"></a></span></div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/21716=20366/">Silver</a></span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Комплект поставки</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">Телефон</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Гарнитура</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Кабель для синхронизации</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Зарядное устройство</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Документация</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Гарантийный талон</span></div>
+                                                <div class="chars-value"><span class="chars-value-inner">Переходник Lightning - 3.5 мм mini-jack</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-group-title-empty" colspan="2">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">Гарантия</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner">12 месяцев</span></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-title">теги</div>
+                                            </td>
+                                            <td class="chars-t-cell">
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/tegi=novinki/">Новинки</a></span></div>
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/tegi=tele-oni-raskladushki/">Телефоны раскладушки</a></span></div>
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/tegi=sensornie/">Сенсорные</a></span></div>
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/tegi=slayderi/">Слайдеры</a></span></div>
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/tegi=s-bolshim-ekranom/">С большим экраном</a></span></div>
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/tegi=nadegnie/">Надежные</a></span></div>
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/tegi=dorogie/">Дорогие</a></span></div>
+                                                <div class="chars-value"><span class="chars-value-inner"><a class="novisited" href="https://rozetka.com.ua/mobile-phones/c80003/tegi=na-1-sim/">на 1 Sim</a></span></div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="productVideoReview">
+                                <div class="product-video-review">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="related-products"></div>
+        </div>
+    </div>
+
+    <footer class="footer footer-big bg-white mt-5">
+        <div class="container">
+            <div class="footer-menu">
+                <div class="row">
+                    <div class="col-sm-6 col-md-12 col-lg-3 mb-4 mb-lg-0">
+                        <h4 class="title">Преимущества</h4>
+                        <div class="footer-text">
+                            <p>Наш сервисный центр предоставляет услуги по ремонту бытовой техники в Астрахани более 5 лет, за это время мы зарекомендовали себя с положительной стороны. <a href="#">Читать далее...</a></p>
+
+                        </div>
+                        <a href="#"><a href="#">Политика конфиденциальности</a></a>
+                    </div>
+                    <div class="d-none d-md-block col-md-4 col-lg-3">
+                        <h4 class="title">Новости</h4>
+                        <ul class="list description-list">
+                            <li>
+                                <div class="li-col li-label"><span class="date">26 фев.</span></div>
+                                <div class="li-col li-description"><a href="#">Обновлена политика конфиденциальности</a></div>
+                            </li>
+                            <li>
+                                <div class="li-col li-label"><span class="date">15 фев.</span></div>
+                                <div class="li-col li-description"><a href="#">Контроль качества обслуживания</a></div>
+                            </li>
+                            <li>
+                                <div class="li-col li-label"><span class="date">21 янв.</span></div>
+                                <div class="li-col li-description"><a href="#">Скидка на ремонт стиральной машины</a></div>
+                            </li>
+                            <!-- <li>
+                                <div class="li-col li-label"><span class="date">06 янв.</span></div>
+                                <div class="li-col li-description"><a href="#">Скидки для пенсионеров</a></div>
+                            </li>
+                            <li>
+                                <div class="li-col li-label"><span class="date">31 янв.</span></div>
+                                <div class="li-col li-description"><a href="#">Поздравляем всех клиентов с Новым Годом!</a></div>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="d-none d-md-block col-md-4 col-lg-3">
+                        <h4 class="title">Статьи о ремонте</h4>
+                        <ul class="list description-list">
+                            <li>
+                                <div class="li-col li-label"><span class="date">26.02.2018</span></div>
+                                <div class="li-col li-description"><a href="#">В стиральной машине остаётся порошок</a></div>
+                            </li>
+                            <li>
+                                <div class="li-col li-label"><span class="date">15.02.2018</span></div>
+                                <div class="li-col li-description"><a href="#">Какой порошок лучше для стиральной машины</a></div>
+                            </li>
+                            <li>
+                                <div class="li-col li-label"><span class="date">21.01.2018</span></div>
+                                <div class="li-col li-description"><a href="#">Как правильно перевозить холодильник</a></div>
+                            </li>
+                            <!-- <li>
+                                <div class="li-col li-label"><span class="date">06.01.2018</span></div>
+                                <div class="li-col li-description"><a href="#">Как очистить стиральную машину</a></div>
+                            </li>
+                            <li>
+                                <div class="li-col li-label"><span class="date">31.12.2017</span></div>
+                                <div class="li-col li-description"><a href="#">Ремонт компрессора холодильника</a></div>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3">
+                        <h4 class="title">Обратная связь</h4>
+                        <ul class="list">
+                            <li class="list-item">
+                                <a href="#">
+                                    <span>улица Н.Островского, 148б</span><br><span>г. Астрахань</span>
+                                </a>
+                            </li>
+                            <li class="list-item">
+                                <a href="tel:+78512729261" class="value">+7 (8512) 72-92-61</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="mailto:master_i_co@mail.ru" class="value">master_i_co@mail.ru</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <nav class="footer-nav pull-left">
+                <ul>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Производители</a></li>
+                    <li><a href="#">Районы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="copyright pull-right">
+                Copyright &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>, <strong><a href="/">Мастер&amp;Ко</a></strong>.
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Вход</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label class="bmd-label-floating">E-mail</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="bmd-label-floating">Пароль</label>
+                            <input type="password" class="form-control">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+                    <button type="submit" class="btn btn-primary btn-raised ml-2">Войти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--   Core JS Files   -->
+    <script src="/js/core/jquery.min.js"></script>
+    <script src="/js/core/popper.min.js"></script>
+    <script src="/js/bootstrap-material-design.js"></script>
+
+    <!-- Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="/js/plugins/moment.min.js"></script>
+    <script src="/js/plugins/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="/js/plugins/nouislider.min.js"></script>
+
+    <!-- Slick -->
+    <script src="/js/plugins/slick.min.js"></script>
+
+    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+    <script src="/theme/default/js/material-kit.js?v=2.0.0"></script>
+
+    <!-- Custom theme js -->
+    <script src="/theme/default/js/functions.js"></script>
+    <script src="/theme/default/js/main.js"></script>
+
+    <!-- Page scripts -->
+    <script type="text/javascript">
+        $(function(){
+            $("#productCarousel .slides").slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                speed: 400,
+                infinite: true,
+                prevArrow: $("#productCarousel .prev"),
+                nextArrow: $("#productCarousel .next")
+            });
+
+            $('.nav-thumbs a').on('show.bs.tab', function(e){
+                console.log(e);
+                var newHref = $(e.target).attr('href');
+                $('.nav-thumbs a').removeClass('active show');
+                $('.nav-thumbs a[href="'+ newHref +'"]').addClass('active show');
+            });
+        });
+    </script>
+
+</body>
+</html>
