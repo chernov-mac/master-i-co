@@ -72,23 +72,28 @@
 
     <div class="page-header header-medium header-filter" data-parallax="true" style="background-image: url('/uploads/img/headers/man-coffee-cup-pen.jpg')">
         <div class="container">
-            <a href="cart.html" class="btn btn-white float-right product-cart-btn">
-                <i class="material-icons">shopping_cart</i> 0 Предметов
-            </a>
+            <div class="d-flex">
+                <a href="/shop2.html" class="btn btn-white btn-link product-cart-btn px-2">
+                    <i class="material-icons">arrow_back</i> Каталог
+                </a>
+                <a href="cart.html" class="btn btn-white product-cart-btn ml-auto">
+                    <i class="material-icons">shopping_cart</i> 0 Предметов
+                </a>
+            </div>
         </div>
     </div>
 
     <div class="section section-gray">
         <div class="container">
             <div class="main main-raised main-product product">
-                <div class="product-label product-label-rose text-center">Распродажа</div>
                 <div class="row">
-                    <div class="col-12 col-lg-5 col-xl-4">
+                    <div class="col-12 col-md-3 col-lg-5 col-xl-4">
                         <div class="product-image">
+                            <div class="product-label product-label-rose text-center">Распродажа</div>
                             <img src="/uploads/img/products/iPhoneX-1.jpg">
                         </div>
                     </div>
-                    <div class="col-12 col-lg-7 col-xl-8">
+                    <div class="col-12 col-md-9 col-lg-7 col-xl-8">
                         <h2 class="title product-title">Product Name</h2>
                         <div class="product-buy-block">
                             <div class="product-price mt-3 mr-2">
@@ -110,15 +115,21 @@
                                 </div>
                             </li>
                         </ul>
-                        <ul class="nav nav-pills nav-pills-rose p-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#productDescr" data-toggle="tab">Описание</a>
+                        <ul class="nav nav-pills nav-pills-rose nav-pills-icons flex-column flex-sm-row p-0">
+                            <li class="nav-item mt-sm-0">
+                                <a class="nav-link active" href="#productDescr" data-toggle="tab">
+                                    <i class="material-icons d-none d-sm-inline-block">notes</i>Описание
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#productSpecs" data-toggle="tab">Характеристики</a>
+                            <li class="nav-item mt-sm-0">
+                                <a class="nav-link" href="#productSpecs" data-toggle="tab">
+                                    <i class="material-icons d-none d-sm-inline-block">assignment</i>Характеристики
+                                </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#productVideoReview" data-toggle="tab">Видеообзор</a>
+                            <li class="nav-item mt-sm-0">
+                                <a class="nav-link" href="#productVideoReview" data-toggle="tab">
+                                    <i class="material-icons d-none d-sm-inline-block">video_library</i>Видеообзор
+                                </a>
                             </li>
                         </ul>
                         <div class="tab-content tab-space">
@@ -675,7 +686,6 @@
                     </div>
                 </div>
             </div>
-            <div class="related-products"></div>
         </div>
     </div>
 
