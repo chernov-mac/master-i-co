@@ -203,3 +203,85 @@ $.fn.editable = function() {
 
     }).get();
 };
+
+$.fn.amount = function() {
+    this.map(function(i, el){
+        var $input = $(el),
+            $wrapper = $input.closest('.amount'),
+            $minusBtn = $wrapper.find('[data-toggle="amount"][data-action="minus"]'),
+            $plusBtn = $wrapper.find('[data-toggle="amount"][data-action="plus"]'),
+            min = +$input.attr('min'),
+            max = +$input.attr('max'),
+            originalValue = +$input.val();
+        
+        init();
+
+
+
+        // Functions
+
+        function init() {
+            setValue(+originalValue);
+        }
+
+        function setValue(value) {
+            if (isValid(value)) {
+                $input.val(value);
+                setButtonsState(value);
+            } else {
+                setValue(validateValue(value));
+            }
+        }
+
+        function isValid(value) {
+            return value >= min && value <= max;
+        }
+
+        function validateValue(value) {
+            value = +value;
+            if (value < min) {
+                return min;
+            } else if (value > max) {
+                return max;
+            } else {
+                return value;
+            }
+        }
+
+        function setButtonsState(value) {
+            if (value <= min) {
+                $minusBtn.addClass('btn-default');
+            } else {
+                $minusBtn.removeClass('btn-default');
+            }
+
+            if (value >= max) {
+                $plusBtn.addClass('btn-default');
+            } else {
+                $plusBtn.removeClass('btn-default');
+            }
+        }
+
+        // Events
+
+        $minusBtn.on('click', function(e){
+            e.preventDefault();
+            var delta = +$(this).attr('value') || 1;
+            var value = +$input.val() - delta;
+            setValue(value);
+        });
+
+        $plusBtn.on('click', function(e){
+            e.preventDefault();
+            var delta = +$(this).attr('value') || 1;
+            var value = +$input.val() + delta;
+            setValue(value);
+        });
+
+        $input.on('change', function(e){
+            var value = +$input.val();
+            setValue(value);
+        });
+
+    }).get();
+};
