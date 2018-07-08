@@ -569,8 +569,12 @@
             var productId = $(this).data('product-id');
             var amount = +this.value;
 
-            console.log(productId);
-            console.log(amount);
+            if (!e.initSetting) {
+                console.log(productId);
+                console.log(amount);
+            }
+
+
 
             // EditAmountGoodsInCart($(this));
 

@@ -229,6 +229,8 @@ $.fn.amount = function() {
             min = +$input.attr('min'),
             max = +$input.attr('max'),
             originalValue = +$input.val();
+
+        var initialised = false;
         
         init();
 
@@ -238,6 +240,7 @@ $.fn.amount = function() {
 
         function init() {
             setValue(+originalValue);
+            initialised = true;
         }
 
         function setValue(value) {
@@ -248,7 +251,7 @@ $.fn.amount = function() {
                 setValue(validateValue(value));
             }
 
-            dispEvent($input[0], 'amountSet', { value: value });
+            dispEvent($input[0], 'amountSet', { value: value, initSetting: !initialised });
         }
 
         function isValid(value) {
