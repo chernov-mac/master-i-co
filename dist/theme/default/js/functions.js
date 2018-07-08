@@ -230,8 +230,6 @@ $.fn.amount = function() {
             max = +$input.attr('max'),
             originalValue = +$input.val();
 
-        var initialised = false;
-        
         init();
 
 
@@ -239,11 +237,12 @@ $.fn.amount = function() {
         // Functions
 
         function init() {
-            setValue(+originalValue);
-            initialised = true;
+            setValue(+originalValue, false);
         }
 
-        function setValue(value) {
+        function setValue(value, dispatch) {
+            if (dispatch === 'undefined') dispatch = true;
+
             if (isValid(value)) {
                 $input.val(value);
                 setButtonsState(value);
@@ -251,7 +250,9 @@ $.fn.amount = function() {
                 setValue(validateValue(value));
             }
 
-            dispEvent($input[0], 'amountSet', { value: value, initSetting: !initialised });
+            if (dispatch) {
+                dispEvent($input[0], 'amountSet', { value: value });
+            }
         }
 
         function isValid(value) {
@@ -289,14 +290,16 @@ $.fn.amount = function() {
             e.preventDefault();
             var delta = +$(this).attr('value') || 1;
             var value = +$input.val() - delta;
-            setValue(value);
+            var dispatch = $minusBtn.hasClass('btn-default') ? false : true;
+            setValue(value, dispatch);
         });
 
         $plusBtn.on('click', function(e){
             e.preventDefault();
             var delta = +$(this).attr('value') || 1;
             var value = +$input.val() + delta;
-            setValue(value);
+            var dispatch = $plusBtn.hasClass('btn-default') ? false : true;
+            setValue(value, dispatch);
         });
 
         $input.on('change', function(e){

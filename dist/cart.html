@@ -566,32 +566,7 @@
         });
 
         $('input.amount-value').on('amountSet', function(e){
-            var productId = $(this).data('product-id');
-            var amount = +this.value;
-
-            if (!e.initSetting) {
-                console.log(productId);
-                console.log(amount);
-            }
-
-
-
-            // EditAmountGoodsInCart($(this));
-
-            // $.ajax('/ajax-url/file.php', {
-            //     method: 'POST',
-            //     data: {
-            //         action: '',
-            //         product_id: productId,
-            //         amount: amount
-            //     },
-            //     success: function(){
-            //
-            //     },
-            //     error: function(){
-            //
-            //     }
-            // });
+            console.log('event');
         });
     });
 </script>
