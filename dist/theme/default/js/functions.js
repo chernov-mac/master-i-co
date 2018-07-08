@@ -148,6 +148,22 @@ function beautifyPagination(pagination) {
     });
 }
 
+function dispEvent(target, name, detail) {
+    name = name || 'customEvent';
+    detail = detail || {};
+    var eventInstance;
+    try {
+        eventInstance = new CustomEvent(name, {
+            bubbles: true,
+            detail: detail
+        });
+    } catch (n) {
+        (eventInstance = document.createEvent('CustomEvent')).initCustomEvent(name, true, true, detail);
+    }
+    target.dispatchEvent(eventInstance);
+    return eventInstance;
+}
+
 // Plugins
 
 $.fn.editable = function() {
@@ -231,6 +247,8 @@ $.fn.amount = function() {
             } else {
                 setValue(validateValue(value));
             }
+
+            dispEvent($input[0], 'amountSet', { value: value });
         }
 
         function isValid(value) {
